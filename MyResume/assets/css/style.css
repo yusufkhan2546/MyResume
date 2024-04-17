@@ -274,14 +274,16 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/coverpic.jpeg") top right no-repeat;
   background-size: cover;
   position: relative;
+  
 }
 
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+
   }
 }
 
@@ -1206,4 +1208,151 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+/* Download Button */
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+  color:white;
+}
+button a ,button a:hover{
+  color:white;
+}
+.card{
+  border-radius: 0 !important;
+  border:0;
+}
+/*****************CSS BUTTONS *******************/
+button{
+
+  display: inline-block;
+  outline: 0;
+  border:0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #000 !important;
+  background: #2f4ae2 !important;
+  line-height: 30px;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transition: all 0.2s;
+  /* :hover{
+      box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+      transform: scale(1.01);
+  } */
+  
+}
+/******/
+.button2{
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff !important;
+  font-size: 14px;
+  height: 38px;
+  padding: 8px 24px;
+  border-radius: 50px;
+  background-image: linear-gradient(180deg,#7c8aff,#3c4fe0);
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+  transition: all .2s ease-out;
+  /* :hover{
+      box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+  } */
+}
+.hireme{
+  
+  display: inline-block;
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 9px 22px;
+  font-size: 22px;
+  height: 50px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: normal;
+  background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+  border-radius: 50px;
+  transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+  :hover{
+      box-shadow: 0 0 0 0.15rem #5ceace;
+  }
+  
+}
+a.hireme{
+  color:white !important;
+  text-align: center;
+  align-items: center;
+  padding-top:12px;
+}
+a.hireme:hover{
+
+}
+.col-md-6{
+  /* padding : 5px;
+  margin : 5px; */
+}
+.form-group{
+  margin-bottom:5px !important;
+}
+section#portfolio{
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-wrap: normal;
+  overscroll-behavior: normal;
+}
+body{
+ /* color:white;
+ background-color: black; */
+}
+.col-lg-6.filter-honors img {
+  
+  object-fit: cover;
+  height:fit-content;
+  width: 100%;
+}
+.col-md-12.portfolio-item.filter-honors img{
+  /* height: 60vh;
+  width:80vw; */
+  object-fit: cover;
+  height:fit-content;
+  width: 100%;
+}
+#container{
+}
+.social-links img{
+  align-items: center;
+  z-index: -1;
+  display: inline-flex;
+ 
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.rotating {
+  animation: rotate  5s linear; /* Adjust duration and timing function as needed */
 }
